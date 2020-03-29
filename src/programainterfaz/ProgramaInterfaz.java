@@ -9,8 +9,8 @@ public class ProgramaInterfaz{
         Canario piolin = new Canario(); 
         piolin.cantar(); 
         
-        Burro ASNO = new Burro();
-        ASNO.cantar();
+        Burro asno = new Burro();
+        asno.cantar();
     } 
     public static void hacerCantar(PuedeCantar cantor) { 
         cantor.cantar(); 
